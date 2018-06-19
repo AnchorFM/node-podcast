@@ -25,6 +25,7 @@ export default class Podcast {
     this.feedOptions.webMaster = options.webMaster;
     this.feedOptions.ttl = options.ttl;
     this.feedOptions.geoRSS = options.geoRSS || false;
+    this.feedOptions.pubSubHubbub = options.pubSubHubbub || false;
 
     this.feedOptions.custom_elements = options.customElements || [];
     this.feedOptions.custom_namespaces = Object.assign({
